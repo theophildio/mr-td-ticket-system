@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TCK-3001",
+    "title": "Password reset request",
+    "description": "User forgot account password and cannot log in.",
+    "customer": "Alpha Co",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": "TCK-3002",
+    "title": "Email not sending",
+    "description": "User is unable to send emails from Outlook.",
+    "customer": "Beta Ltd",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": "TCK-3003",
+    "title": "Printer out of paper",
+    "description": "Office printer shows 'Out of Paper' error.",
+    "customer": "Gamma Inc",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK-3004",
+    "title": "Computer running slow",
+    "description": "Desktop computer is taking longer than usual to open programs.",
+    "customer": "Delta Corp",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK-3005",
+    "title": "WiFi not connecting",
+    "description": "Laptop cannot connect to office WiFi network.",
+    "customer": "Epsilon LLC",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK-3006",
+    "title": "Monitor not turning on",
+    "description": "User's monitor remains black after powering on.",
+    "customer": "Zeta Solutions",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK-3007",
+    "title": "Keyboard not working",
+    "description": "Some keys on the keyboard are not responding.",
+    "customer": "Eta Systems",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK-3008",
+    "title": "Cannot access shared folder",
+    "description": "User gets access denied message when opening shared folder.",
+    "customer": "Theta Group",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK-3009",
+    "title": "Software update needed",
+    "description": "User requests update of installed browser to latest version.",
+    "customer": "Iota Enterprises",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK-3010",
+    "title": "Mouse not detected",
+    "description": "USB mouse is not recognized by the computer.",
+    "customer": "Kappa Services",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK-3011",
+    "title": "Forgot WiFi password",
+    "description": "User needs WiFi password to connect new device.",
+    "customer": "Lambda Tech",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK-3012",
+    "title": "Screen flickering",
+    "description": "Laptop screen flickers intermittently during use.",
+    "customer": "Mu Dynamics",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  }
+]
