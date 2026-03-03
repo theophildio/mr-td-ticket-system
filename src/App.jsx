@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
       <header>
         <Navbar></Navbar>
       </header>
+      {/* Main body */}
+      <main className="w-11/12 mx-auto">
+        <Banner></Banner>
+      </main>
     </>
   );
 }

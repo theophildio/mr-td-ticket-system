@@ -1,0 +1,12 @@
+.in-progress-box {
+  background-image: url("../../assets/in-progress-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.resolved-box {
+  background-image: url("../../assets/resolved-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

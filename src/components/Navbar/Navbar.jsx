@@ -1,7 +1,6 @@
-
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm px-0">
       <div className="w-11/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -46,7 +45,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">TD - Ticket System </a>
+          <a className="text-xl font-semibold">TD - Ticket System </a>
         </div>
         <div className="navbar-end">
           <div className="hidden lg:flex">
