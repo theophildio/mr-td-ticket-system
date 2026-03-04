@@ -1,7 +1,8 @@
 import { Suspense } from "react";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
-import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import Tickets from "./components/Tickets/Tickets";
 
 const fetchTickets = async () => {
@@ -15,11 +16,7 @@ function App() {
 
   return (
     <>
-      {/* Header */}
-      <header>
-        <Navbar></Navbar>
-      </header>
-      {/* Main body */}
+      <Header></Header>
       <main className="w-11/12 mx-auto">
         <Banner></Banner>
         <section className="left-side flex justify-between gap-12">
@@ -37,6 +34,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer></Footer>
     </>
   );
 }

@@ -6,7 +6,7 @@ const Tickets = ({ticketPromise}) => {
     console.log(tickets);
 
     return (
-        <div className="tickets grid grid-cols-2 gap-5">
+        <div className="tickets grid grid-cols-2 gap-5 pb-15">
             {
                 tickets.map(ticket => <Ticket 
                     key={ticket.id} 
