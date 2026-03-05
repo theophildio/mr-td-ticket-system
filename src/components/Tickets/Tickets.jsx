@@ -9,7 +9,7 @@ const Tickets = ({ tickets, handleAddTask }) => {
   }
 
   return (
-    <div className="tickets grid grid-cols-2 gap-5">
+    <div className="tickets grid md:grid-cols-2 gap-5">
       {tickets.map((ticket) => (
         <Ticket
           key={ticket.id}

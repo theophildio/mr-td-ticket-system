@@ -6,11 +6,10 @@ const Ticket = ({ ticket, handleAddTask }) => {
   return (
     <div
       onClick={() => handleAddTask(ticket)}
-      className="bg-gray rounded-md shadow-lg p-3 cursor-pointer bg-white mt-3"
+      className="bg-gray rounded-md shadow-lg p-2 md:p-4 cursor-pointer bg-white mt-3"
     >
       <div className="flex justify-between pb-2">
         <p className="text-lg font-semibold">{title}</p>
-        {/* <span className={`px-3 rounded-xl ${status === "Open" ? "text-green-600 bg-green-100" : "text-yellow-600 bg-yellow-100"}`}>{status}</span> */}
         <span
           className={`flex items-center gap-1 px-2 py-1 rounded-full text-sm font-light
       ${
@@ -31,13 +30,13 @@ const Ticket = ({ ticket, handleAddTask }) => {
       <div className="flex justify-between pt-4">
         <div className="flex items-center">
           <span className="text-gray-500">
-            <small>{id}</small>
+            <small className="text-[10px] md:text-xs">{id}</small>
           </span>
-          <span
-            className={`ml-4 uppercase ${priority === "Low Priority" ? "text-green-600" : priority === "Medium Priority" ? "text-yellow-400" : "text-red-600"}`}
+          <p
+            className={`ml-2 mt[-10px] md:ml-4 uppercase text-xs md:text-md ${priority === "Low Priority" ? "text-green-600" : priority === "Medium Priority" ? "text-yellow-400" : "text-red-600"}`}
           >
             {priority}
-          </span>
+          </p>
         </div>
         <div className="flex items-center text-gray-500">
           <span className="mr-4">

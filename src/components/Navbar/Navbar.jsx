@@ -45,7 +45,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="text-xl font-semibold">TD - Ticket System </a>
+          <a className="text-sm md:text-xl font-semibold">TD - Ticket System </a>
         </div>
         <div className="navbar-end">
           <div className="hidden lg:flex">
@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">
+          <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white text-xs md:text-sm">
             + New Ticket
           </a>
         </div>

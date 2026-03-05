@@ -50,8 +50,8 @@ function App() {
       <Header />
       <main className="w-11/12 mx-auto">
         <Banner addTasks={addTasks} getResolved={getResolved} />
-        <section className="flex justify-between gap-12 mb-15">
-          <div className="left-side customer-tickets w-3/4">
+        <section className="flex flex-col md:flex-row justify-between gap-12 mb-15">
+          <div className="left-side customer-tickets md:w-3/4">
             <h3 className="text-lg font-semibold">Customer Tickets</h3>
 
             {loading ? (
@@ -62,7 +62,7 @@ function App() {
               <Tickets tickets={tickets} handleAddTask={handleAddTask} />
             )}
           </div>
-          <div className="right-side w-1/4">
+          <div className="right-side md:w-1/4">
             <h3 className="text-lg font-semibold">Task Status</h3>
             <Statuses
               addTasks={addTasks}
