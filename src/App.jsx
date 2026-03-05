@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
@@ -25,10 +27,12 @@ function App() {
     const alreadyAdded = addTasks.find((t) => t.id === ticket.id);
 
     if (alreadyAdded) {
+      toast.warning("This ticket is already added!");
       return;
     }
 
     setAddTasks([...addTasks, ticket]);
+    toast.success("Ticket added to Task Status!");
   };
 
   const handleCompleteBtn = (task) => {
@@ -37,6 +41,8 @@ function App() {
     setGetResolved((prev) => [...prev, task]);
 
     setTickets((prev) => prev.filter((t) => t.id !== task.id));
+
+    toast.success("Task completed successfully!");
   };
 
   return (
@@ -68,6 +74,7 @@ function App() {
           </div>
         </section>
       </main>
+      <ToastContainer />
       <Footer />
     </>
   );

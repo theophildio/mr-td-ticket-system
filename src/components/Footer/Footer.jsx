@@ -24,19 +24,19 @@ const Footer = () => {
             <a className="link link-hover">Contact Us</a>
           </nav>
           <nav className="flex flex-col gap-2 text-xs">
-            <h6 className="footer-title">Services</h6>
+            <h6 className="footer-title text-lg">Services</h6>
             <a className="link link-hover">Products & Services</a>
             <a className="link link-hover">Customer Stories</a>
             <a className="link link-hover">Download Apps</a>
           </nav>
           <nav className="flex flex-col gap-2 text-xs">
-            <h6 className="footer-title">Information</h6>
+            <h6 className="footer-title text-lg">Information</h6>
             <a className="link link-hover">Terms of use</a>
             <a className="link link-hover">Privacy policy</a>
             <a className="link link-hover">Cookie policy</a>
           </nav>
           <nav className="flex flex-col gap-2 text-xs">
-            <h6 className="footer-title">Social Links</h6>
+            <h6 className="footer-title text-lg">Social Links</h6>
             <a className="link link-hover flex gap-1 items-center"><img src={X} alt="X" />@TD - Ticket System</a>
             <a className="link link-hover flex gap-1 items-center"><img src={In} alt="X" />@TD - Ticket System</a>
             <a className="link link-hover flex gap-1 items-center"><img src={Fb} alt="X" />@TD - Ticket System</a>
