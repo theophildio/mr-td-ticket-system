@@ -1,10 +1,13 @@
 import calendarIcon from "../../assets/calendar-icon.png";
 
-const Ticket = ({ ticket }) => {
+const Ticket = ({ ticket, handleAddTask }) => {
   const { id, title, description, customer, priority, status, createdAt } =
     ticket;
   return (
-    <div className="bg-gray rounded-md shadow-lg p-3 cursor-pointer">
+    <div
+      onClick={() => handleAddTask(ticket)}
+      className="bg-gray rounded-md shadow-lg p-3 cursor-pointer bg-white mt-3"
+    >
       <div className="flex justify-between pb-2">
         <p className="text-lg font-semibold">{title}</p>
         {/* <span className={`px-3 rounded-xl ${status === "Open" ? "text-green-600 bg-green-100" : "text-yellow-600 bg-yellow-100"}`}>{status}</span> */}
