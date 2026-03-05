@@ -1,11 +1,15 @@
-import { use } from "react";
 import Ticket from "../Ticket/Ticket";
 
-const Tickets = ({ ticketPromise, handleAddTask }) => {
-  const tickets = use(ticketPromise);
+const Tickets = ({ tickets, handleAddTask }) => {
+  
+  if(!tickets || tickets.length === 0) {
+    return (
+      <p className="text-sm text-gray-500 my-3">No tickets remaing</p>
+    )
+  }
 
   return (
-    <div className="tickets grid grid-cols-2 gap-5 pb-15">
+    <div className="tickets grid grid-cols-2 gap-5">
       {tickets.map((ticket) => (
         <Ticket
           key={ticket.id}
